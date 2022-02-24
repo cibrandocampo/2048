@@ -10,7 +10,7 @@ RUN rm -rf CONTRIBUTING.md LICENSE.txt README.md Rakefile
 RUN env
 
 
-FROM nginx:stable
+FROM nginx:alpine
 WORKDIR /
 RUN rm -rf /usr/share/nginx/html
 COPY --from=builder 2048/ /usr/share/nginx/html

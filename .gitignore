@@ -58,3 +58,6 @@ sftp-config.json
 /.vscode/*
 **/*.bak
 **/*.log
+
+# Sublime extension
+*sftp-config.json
